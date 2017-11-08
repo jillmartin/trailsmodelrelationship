@@ -1,0 +1,34 @@
+{
+  "name": "trails",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mongodb": {
+    "collection": "colTrails"
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "length": {
+      "type": "string",
+      "required": true
+    },
+    "elevation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "challenge": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

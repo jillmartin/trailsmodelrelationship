@@ -1,0 +1,7 @@
+{
+  "db": {
+    "url": "mongodb://admin:admin@ds113785.mlab.com:13785/mcs-code",
+    "name": "db",
+    "connector": "mongodb"
+  }
+}
